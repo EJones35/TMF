@@ -9,6 +9,7 @@
 
 	--independent: #808080;
 	--tmf: #AA51E6;
+	--tla: #FFD36B;
 	--cov: #39FF14;
 
 	--neutral: #7E7EFC;
@@ -171,6 +172,10 @@ footer {
 
 #tmfCard {
 	border-color: var(--tmf);
+}
+
+#tlaCard {
+		border-color: var(--tla):
 }
 
 #covCard {
