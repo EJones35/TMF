@@ -80,5 +80,9 @@ h1, h2 {
 }
 
 .fc-given-rank {
+	border: 2px solid yellow;
+}
+
+.fc-given-rank {
 	border: 2px 2px yellow;
 }
