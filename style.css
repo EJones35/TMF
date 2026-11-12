@@ -79,10 +79,19 @@ h1, h2 {
 	text-align: center;
 }
 
-.fc-given-rank {
-	border: 2px solid yellow;
+.fc-given-rank, .fc-rank, .blood-given-rank {
+	border: 2px solid;
+	padding: 5px;
+	width: fit-content;
 }
 
 .fc-given-rank {
-	border: 2px 2px yellow;
+	border-color: yellow;
+}
+
+.fc-rank {
+	border-color: violet;
+}
+.blood-given-rank {
+	border-color: red;
 }
