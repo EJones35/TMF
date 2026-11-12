@@ -7,6 +7,7 @@
 
 	--silver: #A9A9A9;
 
+	--independent: #808080;
 	--tmf: #AA51E6;
 	--cov: #39FF14;
 
@@ -162,6 +163,10 @@ footer {
 
 #tier2MedalCard {
 	border-color: gold;
+}
+
+#independentCard {
+	border-color: var(--independent);
 }
 
 #tmfCard {
