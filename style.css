@@ -6,6 +6,17 @@
 	--link-hover: cyan;
 
 	--silver: #A9A9A9;
+
+	--tmf: #AA51E6;
+	--cov: #39FF14;
+
+	--neutral: #7E7EFC;
+	--allied: #7CF67C;
+	--hostile: #FB0000;
+
+	--fcGivenRank: yellow;
+	--fcRank: violet;
+	--bloodGivenRank: red;
 }
 
 body {
@@ -88,15 +99,15 @@ h1, h2 {
 }
 
 .fcGivenRank {
-	border-color: yellow;
+	border-color: var(--fcGivenRank);
 }
 
 .fcRank {
-	border-color: violet;
+	border-color: var(--fcRank);
 }
 
 .bloodGivenRank {
-	border-color: red;
+	border-color: var(--bloodGivenRank);
 }
 
 .tier1Medal {
@@ -112,4 +123,63 @@ footer {
 	font-size: 1.05rem;
 	padding: 20px;
 	opacity: 0.75;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 15px;
+	border: 3px solid rgba(255, 255, 255, 1);
+	border-radius: 8px;
+}
+
+#fcGivenRankCard {
+	border-color: var(--fcGivenRank);
+}
+
+#fcRankCard {
+	border-color: var(--fcRank);
+}
+
+#bloodGivenRankCard {
+	border-color: var(--bloodGivenRank);
+}
+
+#tier1MedalCard {
+	border-color: var(--silver);
+}
+
+#tier2MedalCard {
+	border-color: gold;
+}
+
+#tmfCard {
+	border-color: var(--tmf);
+}
+
+#covCard {
+	border-color: var(--cov);
+}
+
+.neutral {
+	color: var(--neutral);
+}
+
+.allied {
+	color: var(--allied);
+}
+
+.hostile {
+	color: var(--hostile);
 }
