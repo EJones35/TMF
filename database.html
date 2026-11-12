@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="db.js" type="module" defer></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Database | TMF Portal</title>
+</head>
+
+<body>
+<header>
+	<h1>Database</h1>
+</header>
+
+<nav class="general">
+	<a href="index.html"><strong>Home</strong></a>
+	<a href="users.html"><strong>Users</strong></a>
+	<a href="database.html"><strong>Database</strong></a>
+</nav>
+
+<main>
+	<h2>Completed Missions (Manually add)</h2>
+	<form id="missions-completed" class="dbnav">
+		<div class="form-group">
+			<input type="checkbox" id="op01">
+			<label for="op01">Operation: Forgotten Memories</label>
+		</div>
+		
+		<div class="form-group">
+			<input type="checkbox" id="op02">
+			<label for="op02">Operation: Murder</label>
+		</div>
+		
+		<div class="form-group">
+			<input type="checkbox" id="op03">
+			<label for="op03">Operation: Mandela</label>
+		</div>
+	</form>
+
+	<div id="database">
+		<div id="missionSection">
+			<h2 class="title">Missions</h2>
+		</div>
+
+		<div id="rankSection">
+			<h2 class="title">Ranks</h2>
+				<h3 class="subtitle">Novitiate</h3>
+					<img src="assets/ranks/novitiate.png" alt="Novitiate icon">
+					<p class="fcGivenRank">This rank is given at the choice of your Flight Commander</p>
+					<p class="description">A rank given to an Archivist when they are just starting out.</p>
+				<h3 class="subtitle">Sentinel</h3>
+					<img src="assets/ranks/sentinel.png" alt="Sentinel icon">
+					<p class="fcGivenRank">This rank is given at the choice of your Flight Commander</p>
+					<p class="description">A rank given to an Archivist on the path to greatness.</p>
+				<h3 class="subtitle">Academician</h3>
+					<img src="assets/ranks/academician.png" alt="Academician icon">
+					<p class="fcGivenRank">This rank is given at the choice of your Flight Commander</p>
+					<p class="description">A rank given to an Archivist who has not just potential, but persuit of knowledge and exploration.</p>
+				<h3 class="subtitle">Curator</h3>
+					<img src="assets/ranks/curator.png" alt="Curator icon">
+					<p class="fcGivenRank">This rank is given at the choice of your Flight Commander</p>
+					<p class="description">A rank given to an Archivist who shows leadership to its finest. They have shown the ability to find knowledge and also store it. After all, knowledge is power...</p>
+				<h3 class="subtitle">Marshal</h3>
+					<img src="assets/ranks/marshal.png" alt="Marshal icon">
+					<p class="fcGivenRank">This rank is given at the choice of your Flight Commander</p>
+					<p class="description">A rank given to an Archivist who has shown the sheer amount of knowledge they are willing to collect and skills needed to store it as such.</p>
+				<h3 class="subtitle">Archon</h3>
+					<img src="assets/ranks/archon.png" alt="Archon icon">
+					<p class="fcRank">This rank is given by the choice of those above with the final decision given by the Aethel.</p>
+					<p class="description">A rank given to an Archivist who commands a ship full time.</p>
+				<h3 class="subtitle">Chancellor</h3>
+					<img src="assets/ranks/chancellor.png" alt="Chancellor icon">
+					<p class="fcRank">This rank is given by the choice of those above with the final decision given by the Aethel.</p>
+					<p class="description">A rank given to an Archivist who commands a small fleet of ships full time.</p>
+				<h3 class="subtitle">Prelate</h3>
+					<img src="assets/ranks/prelate.png" alt="Prelate icon">
+					<p class="fcRank">This rank is given by the choice of those above with the final decision given by the Aethel.</p>
+					<p class="description">A rank given to an Archivist who commands a larger fleet of ships than the Chancellor below them.</p>
+				<h3 class="subtitle">Paragon</h3>
+					<img src="assets/ranks/paragon.png" alt="Paragon icon">
+					<p class="fcRank">This rank is given by the choice of those above with the final decision given by the Aethel.</p>
+					<p class="description">A rank given to an Archivist who is a Zenith's right hand.</p>
+				<h3 class="subtitle">Zenith</h3>
+					<img src="assets/ranks/zenith.png" alt="Zenith icon">
+					<p class="fcRank">This rank is given by the choice of those above with the final decision given by the Aethel.</p>
+					<p class="description">A rank given to an Archivist who is the highest, non-birthright role. Some notable examples are Zeniths Nila and Lowell.</p>
+				<h3 class="subtitle">Aethel</h3>
+					<img src="assets/ranks/aethel.png" alt="Aethel icon">
+					<p class="bloodGivenRank">This rank is given by blood relation</p>
+					<p class="description">The only rank inaccessible to anyone not blood related to the current Aethel. A <strong>very</strong> rare figure to meet. If you do, it'll either be something really good, or really bad...</p>
+		</div>
+
+		<div id="factionSection">
+			<h2 class="title">Factions</h2>
+				<h3 class="subtitle">TMF</h3>
+					<p class="description">The TMF are the best faction, no questions asked.</p>
+				<h3 class="subtitle">COV</h3>
+					<p class="description">Boo, it's the COV.</p>
+		</div>
+		
+		<div id="awardsSection">
+			<h2 class="title">Awards</h2>
+				<h3 class="subtitle">The Sovereign Baton</h3>
+						<img src="assets/medals/sovereign_baton.png" alt="The Sovereign Baton icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out to fine captains.</p>
+				<h3 class="subtitle">The Gilded Comet</h3>
+						<img src="assets/medals/gilded_comet.png" alt="The Gilded Comet icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out to fine helm officers.</p>
+				<h3 class="subtitle">The Golden Bastion</h3>
+						<img src="assets/medals/golden_bastion.png" alt="The Golden Bastion icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out to fine weapons officers.</p>
+				<h3 class="subtitle">The Brass Architect</h3>
+						<img src="assets/medals/brass_architect.png" alt="The Brass Architect icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out to fine engineers.</p>
+				<h3 class="subtitle">The Astral Lens</h3>
+						<img src="assets/medals/astral_lens.png" alt="The Astral Lens icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out to fine science officers.</p>
+				<h3 class="subtitle">The Resonant Rose</h3>
+						<img src="assets/medals/resonant_rose.png" alt="The Resonant Rose icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out to fine relay officers.</p>
+				<h3 class="subtitle">The Meridian Merit</h3>
+						<img src="assets/medals/meridian_merit.png" alt="The Meridian Merit icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out for general exellence.</p>
+				<h3 class="subtitle">The Emissary Ribbon</h3>
+						<img src="assets/medals/emissary_ribbon.png" alt="The Emissary Ribbon icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out for diplomacy.</p>
+				<h3 class="subtitle">Crown of the First Scholar</h3>
+						<img src="assets/medals/crown_of_the_first_scholar.png" alt="Crown of the First Scholar icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out for intelligence.</p>
+				<h3 class="subtitle">The Concord Mask</h3>
+						<img src="assets/medals/concord_mask.png" alt="The Concord Mask icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out for NPC relations.</p>
+				<h3 class="subtitle">The Stratagem Award</h3>
+						<img src="assets/medals/stratagem_award.png" alt="The Stratagem Award icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out for tactial plans.</p>
+				<h3 class="subtitle">The Respite Seal</h3>
+						<img src="assets/medals/respite_seal.png" alt="The Respite Seal icon">
+						<p class="tier1Medal">This is a lower ranked medal.</p>
+						<p class="description">A tier 1 medal given out for medicine.</p>
+
+				<h3 class="subtitle">The Apex Scepter</h3>
+						<img src="assets/medals/apex_scepter.png" alt="The Apex Scepter icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out to fine captains.</p>
+				<h3 class="subtitle">The Skylark Wing</h3>
+						<img src="assets/medals/skylark_wing.png" alt="The Skylark Wing icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out to fine helm officers.</p>
+				<h3 class="subtitle">The Sovereign Shield</h3>
+						<img src="assets/medals/sovereign_shield.png" alt="The Sovereign Shield icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out to fine weapons officers.</p>
+				<h3 class="subtitle">The Master Spire</h3>
+						<img src="assets/medals/master_spire.png" alt="The Master Spire icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out to fine engineers.</p>
+				<h3 class="subtitle">The Infinity Orrery</h3>
+						<img src="assets/medals/infinity_orrery.png" alt="The Infinity Orrery icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out to fine science officers.</p>
+				<h3 class="subtitle">The Aureate Cadence</h3>
+						<img src="assets/medals/aureate_cadence.png" alt="The Aureate Cadence icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out to fine relay officers.</p>
+				<h3 class="subtitle">The Grand Aethel Citation</h3>
+						<img src="assets/medals/grand_aethel_citation.png" alt="The Grand Aethel Citation icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out for general excellence.</p>
+				<h3 class="subtitle">The Envoy's Crown</h3>
+						<img src="assets/medals/envoys_crown.png" alt="The Envoy's Crown icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out for diplomacy.</p>
+				<h3 class="subtitle">Medal of the Eternal Library</h3>
+						<img src="assets/medals/medal_of_the_eternal_library.png" alt="Medal of the Eternal Library icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out for intelligence.</p>
+				<h3 class="subtitle">The Unity Crest</h3>
+						<img src="assets/medals/unity_crest.png" alt="The Unity Crest icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out for NPC relations.</p>
+				<h3 class="subtitle">The Grand Gambit</h3>
+						<img src="assets/medals/grand_gambit.png" alt="The Grand Gambit icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out for tactical plans.</p>
+				<h3 class="subtitle">The Obsidian Pulse Citation</h3>
+						<img src="assets/medals/Obsidian Pulse Citation.png" alt="the_obsidian_pulse_citation icon">
+						<p class="tier2Medal">This is a higher ranked medal.</p>
+						<p class="description">A tier 2 medal given out for medicine.</p>
+		</div>
+	</div>
+</main>
+</body>
+<footer>
+	<p>Knowledge is power, use it well...</p>
+</footer>
+</html>

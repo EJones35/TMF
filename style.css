@@ -4,6 +4,8 @@
 
 	--link: deepskyblue;
 	--link-hover: cyan;
+
+	--silver: #A9A9A9;
 }
 
 body {
@@ -79,19 +81,35 @@ h1, h2 {
 	text-align: center;
 }
 
-.fc-given-rank, .fc-rank, .blood-given-rank {
+.fcGivenRank, .fcRank, .bloodGivenRank, .tier1Medal, .tier2Medal {
 	border: 2px solid;
 	padding: 5px;
 	width: fit-content;
 }
 
-.fc-given-rank {
+.fcGivenRank {
 	border-color: yellow;
 }
 
-.fc-rank {
+.fcRank {
 	border-color: violet;
 }
-.blood-given-rank {
+
+.bloodGivenRank {
 	border-color: red;
+}
+
+.tier1Medal {
+	border-color: var(--silver);
+}
+
+.tier2Medal {
+	border-color: gold;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.05rem;
+	padding: 20px;
+	opacity: 0.75;
 }
