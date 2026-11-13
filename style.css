@@ -10,7 +10,13 @@
 	--independent: #808080;
 	--tmf: #AA51E6;
 	--tla: #FFD36B;
+	--tnr: #38761D;
+	--ahs: #FF9B9B;
+	--esh: #5A5AF0;
 	--cov: #39FF14;
+	--tir: #FF9900;
+	--tsi: #00B0F8;
+	--tmc: #6D4B4B;
 
 	--neutral: #7E7EFC;
 	--allied: #7CF67C;
@@ -175,11 +181,35 @@ footer {
 }
 
 #tlaCard {
-		border-color: var(--tla):
+		border-color: var(--tla);
+}
+
+#tnrCard {
+		border-color: var(--tnr);
+}
+
+#ahsCard {
+		border-color: var(--ahs);
+}
+
+#eshCard {
+		border-color: var(--esh);
 }
 
 #covCard {
 	border-color: var(--cov);
+}
+
+#tirCard {
+		border-color: var(--tir);
+}
+
+#tsiCard {
+		border-color: var(--tsi);
+}
+
+#tmcCard {
+		border-color: var(--tmc);
 }
 
 .neutral {
