@@ -20,7 +20,7 @@
 
 	--neutral: #7E7EFC;
 	--allied: #7CF67C;
-	--hostile: #FB0000;
+	--hostile: #FF2424;
 
 	--fcGivenRank: yellow;
 	--fcRank: violet;
@@ -28,7 +28,7 @@
 }
 
 html {
-	padding: 10px;
+	padding: 100px;
 }
 
 body {
