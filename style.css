@@ -27,6 +27,10 @@
 	--bloodGivenRank: red;
 }
 
+html {
+	padding: 10px;
+}
+
 body {
 	background-color: var(--background);
 	color: var(--text);
