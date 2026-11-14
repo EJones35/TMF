@@ -1,5 +1,5 @@
 :root {
-	--background: darkblue;
+	--background: #0A0AA8;
 	--text: white;
 
 	--link: deepskyblue;
@@ -226,4 +226,13 @@ footer {
 
 .hostile {
 	color: var(--hostile);
+}
+
+#factionCards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.description {
+	white-space: pre-line;
 }
