@@ -65,18 +65,16 @@ function addMission1Content(container) {
 			<h3 class="subtitle">Operation: Forgotten Memories</h3>
 			<p>One ship, one frequency, one mystery, can you solve it?</p>
 			<h4>Database Content</h4>
-				<p>
-					Medical Record - TMF Aestrea's Vow
-					== AUTOMATED MEDICAL REPORT FROM TMF Zenith's Promise ==
-					Subject: Zenith Lowell
-					Ship: The Aestrea's Vow
-					Findings
-					The subject's ship seems to have been remotely controlled by an unknown force. During this, the ship was forcefully flown into a vast number of asteroids, knocking the subject unconscious.
-					Scans indicate this is what made the subject lose his memories.
-					Recommended Actions
-					Get the subject to the nearest station for a full scan, probabilities suggest that TMF Genesis Beam would be the most suitable ship for taking the subject there.
-					This ship's onboard computer will remotely escort the subject's ship to the station, then follow close behind.
-					END REPORT ==</p>
+					<p>== AUTOMATED MEDICAL REPORT FROM TMF Zenith's Promise ==</p>
+					<p>Subject: Zenith Lowell</p>
+					<p>Ship: The Aestrea's Vow</p>
+					<p>Findings</p>
+					<p>The subject's ship seems to have been remotely controlled by an unknown force. During this, the ship was forcefully flown into a vast number of asteroids, knocking the subject unconscious.</p>
+					<p>Scans indicate this is what made the subject lose his memories.</p>
+					<p>Recommended Actions</p>
+					<p>Get the subject to the nearest station for a full scan, probabilities suggest that TMF Genesis Beam would be the most suitable ship for taking the subject there.</p>
+					<p>This ship's onboard computer will remotely escort the subject's ship to the station, then follow close behind.</p>
+					<p>END REPORT ==</p>
 		</div>`;
 }
 
